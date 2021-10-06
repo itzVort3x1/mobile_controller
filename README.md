@@ -13,6 +13,12 @@ Have you ever wanted to control you Smartphone using your computer? Worry not!! 
 ```sh
 adb version
 ```
+4) Make sure you connect your device to the computer using a USB cable and turn on `USB debugging` on your phone.
+5) To confirm your device is connected, Run the following command:
+```sh
+adb devices
+```
+6) You are good to go now!
 
 # Requirements
 1) Install the package `opencv-python`:
